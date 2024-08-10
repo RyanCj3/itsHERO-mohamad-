@@ -1,0 +1,63 @@
+body{
+color: white;
+background: black;
+margin: 0px;
+font-family: "Gupter", serif;
+}
+
+
+header{
+    border-bottom: solid 2px rgb(255, 0, 0);
+    padding: 20px;
+    font-size: 32px;
+    color:red;
+
+}
+
+.x{
+background: red;
+padding-bottom: 80px;
+padding-top: 80px;
+display:flex;
+justify-content: center;
+
+
+}
+
+.chamada-texto {
+    
+margin: 5%;
+
+}
+
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
+
+.outros-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 12px;
+
+}
+
+.y{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+}
+.y img{
+    opacity: 0.2;
+    height: 200px;
+}
+.y img:hover{
+    opacity: 1.0;
+    border:1px solid red;
+}
+.y h2{
+    color:red;
+    font-family: "Oswald", sans-serif;
+}
